@@ -1,6 +1,6 @@
 ### 模拟数据
 
-- 使用 /Simulation/MakeSimulation.ipynb 生成基于Fermi弥散背景的dataset, 需要先下载背景模型文件。推荐手动下载，也可以在运行ipynb时自动下载。
+- 使用 /Simulation/RunSimulation.ipynb 生成基于Fermi弥散背景的dataset, 需要先下载背景模型文件。推荐手动下载，也可以在运行ipynb时自动下载。
 
 - /LHAASO_PSF 目录有KM2A的psf拟合的结果(psf_km2a.txt)，是DEC=40$^\circ$的数据.用了两个gaussian来拟合.其中第一列为能量（TeV）,第二列为sigma1的值，第三列为sigma2的值，第四列为gauss1和gauss2的振幅比
 
