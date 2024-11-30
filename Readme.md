@@ -6,6 +6,8 @@
 
 - /LHAASO_PSF 目录有一个HowToUse.ipynb展示了如何使用PSF.py 以及Plot.py,引用其中的函数可以生成PSF卷积函数。里面有些已经不再用的函数，但HowToUse是更新过的，可以参考它来看。(也可以不看，直接用RunSimulation)
 
+- /FermiSRC_TangXiao 里面的压缩包是Fermitools工具生成的高斯型延展源的模拟观测，用fits存储。 该目录另一个ipynb用于临时生成数据集，可能有bug.
+
 ### 模型训练
 
 - 模型代码保存在/SRLearning 目录。其中/SRLearning/function/ 包含了一些模型的结构实现以及一些损失函数。
